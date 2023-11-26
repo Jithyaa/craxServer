@@ -20,7 +20,7 @@ const port = process.env.PORT || 8000;
 app.use(express.json({ limit: "50mb" }));
 app.use(express.urlencoded({ extended: true, limit: "50mb" }));
 const allowedOrigins = [
-  "https://crax-client.vercel.app"
+  "https://crax-client-xs1y.vercel.app"
    // Add your local IP here
 ];
 
